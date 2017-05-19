@@ -1,0 +1,15 @@
+**** BEGIN LOGGING AT Tue Apr  4 19:38:17 2017
+
+Apr 04 19:38:17 *	Now talking on #Solus
+Apr 04 19:38:17 *	Topic for #Solus is: Solus Support | Off-topic: #Solus-Chat | Development: #Solus-Dev | Rules: https://goo.gl/nn5bhR | Solus 2017.01.01.0 Released: https://solus-project.com/2017/01/01/solus-releases-iso-snapshot-20170101-0/ | Help Center https://solus-project.com/help-center/home/
+Apr 04 19:38:17 *	Topic for #Solus set by ikey!~ufee1dead@solus-project.com (Fri Mar 31 16:31:32 2017)
+Apr 04 19:38:27 <catman1900>	I can't build without a build dependency
+Apr 04 19:38:35 <catman1900>	but everything is in system.devel
+Apr 04 19:39:33 <catman1900>	so how do I set that as the build dep
+Apr 04 19:40:36 <sunnyflunk>	catman1900, remove builddeps from the package.yml
+Apr 04 19:40:51 <catman1900>	oh no how did I not think of this
+Apr 04 19:41:09 <jakethesnek>	sunnyflunk, can you help with my package thing for the kernel?
+Apr 04 19:42:27 Python interface unloaded
+Apr 04 19:42:27 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Tue Apr  4 19:42:27 2017
+

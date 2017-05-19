@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-03-13T11:24:19-04:00
+
+====== 1. Measuring Individual Differences ======
+Created Monday 13 March 2017
+
+===== Validity and Reliablity =====
+* **Validity:** A property exhibited by a test that measures what it claims to measure.
+* **Reliability: **A property exhibited by a test that yields the same results when preformed multiple times.
+* **Face Validity:** Measures whether a test looks like it tests what it is supposed to test
+* **Content Validity:** A Property exhibited by a test in which each item is representative of the larger body of knowledge the subject covers.
+* **Item analysis:** The process of examining each question on a test t see how it is related to the thing being tested
+* **Criterion Validity: **A property exhibited by a test that accurately measures performance of the test taker against a specific learning goal.
+* **Test-retest Reliability: **A property exhibited by a test on which people get about the same scores when they take a test more than once.
+* **Split-half reliablity: **A measure of reliability in which a test is split into two parts and an individual's scores on both halves are compared.
+
+
+
+==== Standardization and Norms ====
+* **Normal Range: **scores falling near the middle of  normal distribution
+
+
+=== Types of Tests ===
+* **Objective tests: **Tests that can be scored easily by machine, such as a fill in the bubble test.
+* **Subjective Tests: **Tests in which individuals are giving an open ended situation where they need to describe what they see.
+* **Inter-rater Reliability: **A measure of how similarly two different test scorers would score on a test
+
+
+
+== Ethics and Standards in Testing ==
+- individuals results should be kept confidential
+- Data must be interpreted before being used or before sending it to the test taking individual
+
+
+
+

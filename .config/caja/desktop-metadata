@@ -1,0 +1,44 @@
+[directory]
+caja-icon-view-keep-aligned=true
+caja-icon-view-layout-timestamp=1495202130
+caja-window-scroll-position=x-caja-desktop:///home
+
+[trash]
+caja-icon-position=64,182
+icon-scale=1
+caja-icon-position-timestamp=1495202130
+
+[home]
+caja-icon-position=64,102
+icon-scale=1
+caja-icon-position-timestamp=1495202130
+
+[computer]
+caja-icon-position=64,22
+icon-scale=1
+caja-icon-position-timestamp=1495202130
+
+[101 GB Volume.volume]
+caja-icon-position=1234,662
+icon-scale=1
+caja-icon-position-timestamp=1490104082
+
+[32 GB Volume.volume]
+caja-icon-position=64,282
+icon-scale=1
+caja-icon-position-timestamp=1489879021
+
+[4.0 GB Volume.volume]
+caja-icon-position=64,282
+icon-scale=1
+caja-icon-position-timestamp=1493937826
+
+[UBUNTU-GNOM.volume]
+caja-icon-position=64,282
+icon-scale=1
+caja-icon-position-timestamp=1493938146
+
+[63 GB Volume.volume]
+caja-icon-position=64,282
+icon-scale=1
+caja-icon-position-timestamp=1495200534

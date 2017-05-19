@@ -1,0 +1,58 @@
+$(function(){
+$('#save').click(function(){
+  console.log('updating login');
+  chrome.runtime.sendMessage({text:'updatelogin',username:$('#username').val(),password:$('#password').val()},function(reply){
+    alert("Saved");
+  });
+});
+var deviceTypes = ['iphone','android','windowsDesktop','windowsPhone','windowsTablet'];
+chrome.runtime.sendMessage({text:'getOptions'},function(reply){
+  console.log(reply);
+  $('#buffer').val(reply.bufferLength);
+  $('#skipOp').val(reply.skipOp);
+  $('#skipEd').val(reply.skipEd);
+  $('#language').val(reply.locale);
+  $('#resume').val(reply.resume);
+  $('#start').val(reply.start);
+  $('#autoplay').val(reply.autoplay);
+  $('#height').val(reply.height);
+  $('#width').val(reply.width);
+  $('#volumeScroll').val(reply.volumeScroll);
+  $('#deviceType').val(deviceTypes[reply.deviceType]);
+});
+$('#saveBuffer').click(function(){
+  chrome.runtime.sendMessage({text:'updateBufferLength',bufferLength:$('#buffer').val()},function(reply){
+    alert("Buffer updated");
+  });
+});
+$('#skipOp').change(function(){
+  chrome.runtime.sendMessage({text:'updateSkipOp',skipOp:$('#skipOp').val()});
+});
+$('#skipEd').change(function(){
+  chrome.runtime.sendMessage({text:'updateSkipEd',skipEd:$('#skipEd').val()});
+});
+$('#language').change(function(){
+  chrome.runtime.sendMessage({text:'updateLocale',locale:$('#language').val()});
+});
+$('#resume').change(function(){
+  chrome.runtime.sendMessage({text:'updateResume',resume:$('#resume').val()});
+});
+$('#start').change(function(){
+  chrome.runtime.sendMessage({text:'updateStart',start:$('#start').val()});
+});
+$('#autoplay').change(function(){
+  chrome.runtime.sendMessage({text:'updateAutoplay',autoplay:$('#autoplay').val()});
+});
+$('#width').change(function(){
+  chrome.runtime.sendMessage({text:'updateWidth',width:$('#width').val()});
+});
+$('#height').change(function(){
+  chrome.runtime.sendMessage({text:'updateHeight',height:$('#height').val()});
+});
+$('#volumeScroll').change(function(){
+  chrome.runtime.sendMessage({text:'updateVolumeScroll',volumeScroll:$('#volumeScroll').val()});
+});
+$('#deviceType').change(function(){
+  chrome.runtime.sendMessage({text:'updateDeviceType',deviceType:$('#deviceType').val()});
+});
+});

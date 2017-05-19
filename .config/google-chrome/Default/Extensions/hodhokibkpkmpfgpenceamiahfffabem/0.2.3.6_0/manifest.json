@@ -1,0 +1,25 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "*://*.youtube.com/subscribe_embed*", "*://*.youtube.com/embed*", "*://*.youtube.com/yt/*" ],
+      "js": [ "lib/jquery-3.1.0.slim.min.js", "lib/dateformat.js", "lib/trie.js", "lib/push.min.js", "constants.js", "util.js", "YouTubeLive.js", "default_settings.js", "colored_names.js", "better_mention_highlight.js", "better_separate_messages.js", "pinnable_mentions.js", "push_notifications.js", "sound_notifications.js", "chat_filter.js", "user_filters.js", "keyword_replacement.js", "entry.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAosWj0kvqZ947LxdKZxlUgKVrv0M6VlIsqgs01ItRGGAtF8B3eGBUX/RSAL03u6oHe5GClthyrsIWEo1uC3ZTayIP2bHXorO6zlKQ5a3w96wJ5g/JQ+4ffgdiaKpt6ERsdqFeXhBiT+2vhHvjP3g9o9ClgNgFlkmduUhDNE2dRDUAr5YVwkYgKkKdKtAfi6x5NqqAxQqks5Oc9jBLFcDp1PHj1E86QV/BnUHbf+4p7Hm2VDZ9ob9/B2WLkSlUkZ25AHRruI/S44fEbVjusEPvcSAdRqigjfOzoeffBy8snOOBckTARa6rDoUmPiIppSmeieSnh7Da7xk0J5gLbc4R/wIDAQAB",
+   "manifest_version": 2,
+   "name": "BetterRBTV",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.3.6",
+   "web_accessible_resources": [ "sounds/*", "img/*", "css/*" ]
+}

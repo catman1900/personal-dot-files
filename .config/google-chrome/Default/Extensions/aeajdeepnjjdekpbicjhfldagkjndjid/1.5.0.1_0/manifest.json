@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "jquery.min.js", "bgp.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "video-js.min.css", "videojs.vast.vpaid.min.css", "videojs.ads.css" ],
+      "exclude_matches": [ "http://www.crunchyroll.com/news*", "http://www.crunchyroll.com/comics*", "http://www.crunchyroll.com/store*", "http://www.crunchyroll.com/forum*" ],
+      "js": [ "jquery.min.js", "video.min.js", "videojs.hls.min.js", "videojs.persistvolume.js", "videojs-seek.min.js", "videojs.cuepoints.js", "videojs.hotkeys.min.js", "videojs_5.vast.vpaid.min.js", "videojs.ads.js", "hlsplayer.js" ],
+      "matches": [ "http://www.crunchyroll.com/*/*episode-*", "http://www.crunchyroll.com/*/*-ova-*", "http://www.crunchyroll.com/*/*-part-*", "http://www.crunchyroll.com/*/*-classic-*", "http://www.crunchyroll.com/*/*-special-*", "http://www.crunchyroll.com/one-piece/one-piece-*", "http://www.crunchyroll.com/momokuri/momokuri*", "http://www.crunchyroll.com/shelter/shelter*" ]
+   } ],
+   "description": "A test for video js",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwnYIgySOiv7Yz4WP0fkeGTCZbbKfh5M7cYSj+8VHb6BruJTCgGwybR8VuTz/7PezC832HFOZOf/SFKEhA3rTpuzHLhwjsgKrA0CRGPY9xFoYWCos2Gua2WT7A6t293MRs4JDaZBKOLKs5GF7rzUZP7cHzaXfCGjhrkaGlxkE78P/bIAvBEpWQnz7o5/EAt8Xvs7txTGIVNoOuIhNQPDh/vdFBzh+M3hNS7uDP5zS3OvwOZ1Sebp4y/KCu5HA4FG42gYdXWGBGrgRrNFC8YtlUw3CL8IjVJZ9kiJoRsUzhuITCgPsjd/LVEYz83OjfU8JcgCVnjasKyZyHwzhxfDX8QIDAQAB",
+   "manifest_version": 2,
+   "name": "CR HLS Player",
+   "options_page": "options.html",
+   "permissions": [ "webRequest", "webRequestBlocking", "storage", "http://*.crunchyroll.com/", "https://*.crunchyroll.com/", "http://*.btrll.com/*", "http://*.fwmrm.net/*", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.0.1",
+   "web_accessible_resources": [ "VPAIDFlash.swf" ]
+}

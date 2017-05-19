@@ -1,0 +1,21 @@
+2017/05/19-08:34:02.889 19110 Reusing MANIFEST /home/nick/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/05/19-08:34:02.889 19110 Recovering log #685
+2017/05/19-08:34:02.981 19110 Reusing old log /home/nick/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000685.log 
+2017/05/19-08:34:06.020 19376 Level-0 table #689: started
+2017/05/19-08:34:06.149 19376 Level-0 table #689: 2695356 bytes OK
+2017/05/19-08:34:06.217 19376 Delete type=0 #685
+2017/05/19-08:34:07.382 19376 Level-0 table #691: started
+2017/05/19-08:34:07.517 19376 Level-0 table #691: 1025780 bytes OK
+2017/05/19-08:34:07.614 19376 Delete type=0 #688
+2017/05/19-08:34:08.216 19376 Level-0 table #693: started
+2017/05/19-08:34:08.329 19376 Level-0 table #693: 1025779 bytes OK
+2017/05/19-08:34:08.426 19376 Delete type=0 #690
+2017/05/19-08:34:08.428 19376 Compacting 4@0 + 1@1 files
+2017/05/19-08:34:08.592 19376 Generated table #694@0: 28 keys, 1860667 bytes
+2017/05/19-08:34:08.592 19376 Compacted 4@0 + 1@1 files => 1860667 bytes
+2017/05/19-08:34:08.659 19376 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/05/19-08:34:08.659 19376 Delete type=2 #691
+2017/05/19-08:34:08.660 19376 Delete type=2 #686
+2017/05/19-08:34:08.660 19376 Delete type=2 #693
+2017/05/19-08:34:08.660 19376 Delete type=2 #684
+2017/05/19-08:34:08.660 19376 Delete type=2 #689

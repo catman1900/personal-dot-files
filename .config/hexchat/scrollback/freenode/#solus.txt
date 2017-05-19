@@ -1,0 +1,11 @@
+T 1491349097 19*	Now talking on 22#Solus
+T 1491349097 22*	Topic for 22#Solus is: Solus Support | Off-topic: #Solus-Chat | Development: #Solus-Dev | Rules: https://goo.gl/nn5bhR | Solus 2017.01.01.0 Released: https://solus-project.com/2017/01/01/solus-releases-iso-snapshot-20170101-0/ | Help Center https://solus-project.com/help-center/home/
+T 1491349097 22*	Topic for 22#Solus set by 26ikey!~ufee1dead@solus-project.com (24Fri Mar 31 16:31:32 2017)
+T 1491349107 20<catman1900>30	I can't build without a build dependency
+T 1491349115 20<catman1900>30	but everything is in system.devel
+T 1491349173 20<catman1900>30	so how do I set that as the build dep
+T 1491349236 19<sunnyflunk>	catman1900, remove builddeps from the package.yml
+T 1491349251 20<catman1900>30	oh no how did I not think of this
+T 1491349269 18<jakethesnek18>	sunnyflunk, can you help with my package thing for the kernel?
+T 1491349347 Python interface unloaded
+T 1491349347 FiSHLiM plugin unloaded

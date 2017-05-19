@@ -1,0 +1,30 @@
+
+
+-------session starts-------
+
+[5-19 13:57:25.617] INFO: Got the drag_and_drop directory
+[5-19 13:57:25.621] INFO: MediaGallery: name=/home/nick/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[5-19 13:57:25.621] INFO: MediaGallery: name=/home/nick/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[5-19 13:57:25.621] INFO: MediaGallery: name=/home/nick/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[5-19 13:57:25.623] INFO: Starts a quick scan on /home/nick/Music
+[5-19 13:57:25.624] INFO: Iterating over dir / from source /home/nick/Music
+[5-19 13:57:25.624] INFO: Starts a quick scan on /home/nick/Pictures
+[5-19 13:57:25.624] INFO: Iterating over dir / from source /home/nick/Pictures
+[5-19 13:57:25.624] INFO: Starts a quick scan on /home/nick/Videos
+[5-19 13:57:25.624] INFO: Iterating over dir / from source /home/nick/Videos
+[5-19 13:57:25.632] INFO: /home/nick/Music contains music file
+[5-19 13:57:25.633] INFO: Iterating over dir /Gimp Projects from source /home/nick/Pictures
+[5-19 13:57:25.633] INFO: /home/nick/Videos does not contain music file
+[5-19 13:57:26.377] INFO: /home/nick/Pictures does not contain music file
+[5-19 13:57:27.710] INFO: lsUserAddedMusicSourceIds=null
+[5-19 13:57:27.715] INFO: lsLastTrackFailureLoggingTime=null
+[5-19 13:57:27.715] INFO: lsUserSelectedDownloadDirId=null
+[5-19 13:57:27.721] INFO: lsDefaultDownloadLocationId=null
+[5-19 13:57:27.722] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[5-19 13:57:27.722] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[5-19 13:57:34.123] INFO: lsAppActivated=false
+[5-19 13:57:34.124] INFO: lsDragAndDropActivated=false
+[5-19 13:57:34.125] INFO: Nacl version: 1.0.257.2084
+[5-19 13:57:34.136] INFO: lsAppActivated=false
+[5-19 13:57:38.61] INFO: Fetched user settings from server.
+[5-19 13:57:38.67] INFO: chromeapp:E ready

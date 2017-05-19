@@ -1,0 +1,16 @@
+{
+  "name": "Realm of the Mad God",
+  "description": "The co-op fantasy MMO shooter",
+  "version": "0.0.0.1",
+  "icons": {
+    "128": "rotmg_128.png"
+  },
+  "app": {
+    "urls": [
+      "http://www.realmofthemadgod.com/"
+    ],
+    "launch": {
+      "web_url": "http://www.realmofthemadgod.com/"
+    }
+  }
+}

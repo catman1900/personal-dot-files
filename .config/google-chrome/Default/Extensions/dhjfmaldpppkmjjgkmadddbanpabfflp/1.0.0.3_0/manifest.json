@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.realmofthemadgod.com/"
+      },
+      "urls": [ "http://www.realmofthemadgod.com/" ]
+   },
+   "description": "RotMG is the first ever cooperative MMO bullet hell shooter. No registration required. Fight monsters in groups of up to 85 players.",
+   "icons": {
+      "128": "ROTMG_icon_128x128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk0Xuo3hARqsNnky9bGooVrCnBxVpLaIN1u1Nfy/pMbVpDQN8D/cs2OgHoYMloHAD+U0/UvNIWvhVEowtN6yAGwyk1Dl1n0+qfYtJv8udp9o9XQ3NtN4R3ezWb+U5Yn25VmHRdSnRTivS3WHBrIU0kmXKEW3voox4l5e9fENVilwIDAQAB",
+   "name": "Realm of the Mad God",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.3"
+}

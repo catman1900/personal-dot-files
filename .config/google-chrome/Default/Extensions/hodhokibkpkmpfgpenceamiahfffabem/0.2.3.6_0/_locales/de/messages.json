@@ -1,0 +1,165 @@
+{
+   "Opt_BetterMentionHighlight": {
+      "message": "Bessere Sichtbarkeit von eigenen Usernamen-Erwähnungen (@...)"
+   },
+   "Opt_BetterSeparateMessages": {
+      "message": "Nachrichten besser erkennbar voneinander trennen"
+   },
+   "Opt_ColoredUsernames": {
+      "message": "Farbige Usernamen"
+   },
+   "Opt_EmotePack": {
+      "message": "Emote-Pack"
+   },
+   "Opt_EmotePackButton": {
+      "message": "Emote-Pack laden"
+   },
+   "Opt_EmotePackCurrent": {
+      "message": "Aktuell:"
+   },
+   "Opt_HideAvatars": {
+      "message": "Avatare verbergen (Hinweis: wenn aktiviert, können alte Nachrichten nicht stummgeschaltet/hervorgehoben werden)"
+   },
+   "Opt_HighlightedUserAddButton": {
+      "message": "Hinzufügen"
+   },
+   "Opt_HighlightedUserAddDescription": {
+      "message": "Du kennst bereits die ID eines Nutzers, den du stalken willst? Einfach hier eingeben!"
+   },
+   "Opt_HighlightedUsersHeading": {
+      "message": "Hervorgehobene Benutzer"
+   },
+   "Opt_HighlightedUsersNone": {
+      "message": "Keine. Hebe Benutzer über das Menü beim Klick auf den Namen hervor."
+   },
+   "Opt_LessVIPHighlight": {
+      "message": "weniger aufdringliche VIP-Meldungen"
+   },
+   "Opt_MessageBlacklist": {
+      "message": "Nachrichtentext-Blacklist - Wörter per Leerzeichen trennen"
+   },
+   "Opt_MutedUsersHeading": {
+      "message": "Stummgeschaltete Benutzer"
+   },
+   "Opt_MutedUsersNone": {
+      "message": "Keine. Schalte Benutzer über das Menü beim Klick auf den Namen stumm."
+   },
+   "Opt_PinMentions": {
+      "message": "@Erwähnungen am oberen Chatrand dauerhaft anheften"
+   },
+   "Opt_PushNotifications": {
+      "message": "Desktop-Benachrichtigung anzeigen, wenn eine @Erwähnung in Abwesenheit erscheint"
+   },
+   "Opt_RegularExpression": {
+      "message": "Regulärer Ausdruck"
+   },
+   "Opt_SaveButton": {
+      "message": "Speichern"
+   },
+   "Opt_SaveSpace": {
+      "message": "Zeigt Nachrichten platzsparender an"
+   },
+   "Opt_SoundNotifications": {
+      "message": "Einen Ton abspielen bei jeder @Erwähnung"
+   },
+   "Opt_TabAppearance": {
+      "message": "Erscheinung"
+   },
+   "Opt_TabEmotes": {
+      "message": "Emotes"
+   },
+   "Opt_TabFilters": {
+      "message": "Nachrichtenfilter"
+   },
+   "Opt_TrainingWheels": {
+      "description": "Name for the option to automatically replace certain keywords.",
+      "message": "Stützräder"
+   },
+   "Opt_TrainingWheelsDescription": {
+      "message": "Wandelt bekannte Schlüsselwörter einer anderen Streamingseite in Emoticons um."
+   },
+   "Opt_TrainingWheelsWarning": {
+      "message": "Achtung: Die Zuordnung von Keywords zu Emotes hat sich mit Version 0.2.3.2 geändert. Du musst gegebenenfalls dein Emote-Pack aktualisieren."
+   },
+   "appDescription": {
+      "message": "Komfortfunktionen für YouTube™ Live und YouTube™ Gaming Live."
+   },
+   "emotePackCantRead": {
+      "description": "Warning that the supplied file could not be read.",
+      "message": "Die Bilddatei $FILENAME$ konnte nicht aus der Zip-Datei gelesen werden!",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         }
+      }
+   },
+   "emotePackCantReadFile": {
+      "description": "Warning that the file could not be read and chrome is blocking the file API.",
+      "message": "Datei konnte nicht gelesen werden :( Chrome blockiert nun auch die Datei API."
+   },
+   "emotePackCantReadMapTxt": {
+      "description": "Warning that the map.txt file could not be read.",
+      "message": "map.txt konnte nicht gelesen werden!"
+   },
+   "emotePackCantUnzip": {
+      "description": "Warning that the supplied zip file could not be unzipped.",
+      "message": "Zip-Datei konnte nicht entpackt werden"
+   },
+   "emotePackErrorLoading": {
+      "description": "Warning that the (following) emote pack could not load.",
+      "message": "Fehler beim Laden des Packs: "
+   },
+   "emotePackInstalled": {
+      "description": "Text that is displayed after an emote pack is successfully installed.",
+      "message": "Emote-Pack geladen!"
+   },
+   "emotePackMapTxtErrorInLine": {
+      "description": "Text that is displayed as a warning about which line in the map.txt contains an error.",
+      "message": "map.txt: Fehler Zeile "
+   },
+   "emotePackNoMapTxt": {
+      "description": "Text that is displayed as a warning that an emote pack contains no map.txt file.",
+      "message": "Emote-Pack beinhaltet keine map.txt!"
+   },
+   "emotePackNoSupport": {
+      "description": "Warning that the supplied file is not supported.",
+      "message": "$FILENAME$ kann nicht verwendet werden - nur .png-Dateien werden zur Zeit unterstützt!",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         }
+      }
+   },
+   "filterListRemove": {
+      "description": "Label for a button in the extension settings to remove a user name from the filter list.",
+      "message": "Entfernen"
+   },
+   "noEmotePackInstalled": {
+      "description": "Text that is displayed when no emote pack is installed.",
+      "message": "Kein Emote-Pack installiert"
+   },
+   "optionsSaved": {
+      "description": "Confirmation text after settings were saved.",
+      "message": "Einstellungen gespeichert."
+   },
+   "userActionHighlight": {
+      "description": "Label for a button in the user action menu to enable highlighting for that user.",
+      "message": "Hervorheben"
+   },
+   "userActionMute": {
+      "description": "Label for a button in the user action menu to add a user to the ignore list.",
+      "message": "Stummschalten"
+   },
+   "userActionUnHighlight": {
+      "description": "Label for a button in the user action menu to disable highlighting for that user.",
+      "message": "Nicht hervorheben"
+   },
+   "userActionUnMute": {
+      "description": "Label for a button in the user action menu to remove a user from the ignore list.",
+      "message": "Stummschaltung aufheben"
+   },
+   "warningVersion123": {
+      "description": "A one-time warning for all users from 0.2.2 onwards with active emote packs; recommends to replace them.",
+      "message": "Neue Emote-Schlüsselwörter hinzugefügt - prüfe, ob du ein neues Pack herunterladen musst! (Klicken zum Schließen)"
+   }
+}

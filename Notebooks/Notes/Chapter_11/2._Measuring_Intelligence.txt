@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-03-13T11:27:21-04:00
+
+====== 2. Measuring Intelligence ======
+Created Monday 13 March 2017
+
+===== Binet and Simon invent a school abilities test =====
+- 4 things made their test different from an iq test
+	1.They interpreted scores as an estmate of current preformance, not how smart a person is inntately
+	2.They wanted the tests to just show who needed help, not to just catagorize them as smart or dumb
+	3. they made it clear that training and oppertunity could affect intelligence
+	4. They made the test //empirically //so it wasn't trying to test a particular theory of intelligencent 
+* **Mental Age (MA): **the average age that average individuals achieve a particular score 
+* **Chronological Age (CA): **The number of years since the individual's birth
+
+
+
